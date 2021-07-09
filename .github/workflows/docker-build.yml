@@ -30,6 +30,5 @@ jobs:
         with:
           push: true
           tags: user/app:latest
-          context: ./solutions/python-helloworld
           file: ./solutions/python-helloworld/Dockerfile
 
